@@ -30,8 +30,8 @@ set(CYTHON_CPP_SOURCES ${CMAKE_CURRENT_BINARY_DIR}/soft_dtw_fast.cpp)
 include_directories(${Python3_INCLUDE_DIRS})
 
 # Add the executable/library
-add_library(my_module SHARED ${CYTHON_CPP_SOURCES})
-target_link_libraries(my_module ${Python3_LIBRARIES})
+add_library(sdtw SHARED ${CYTHON_CPP_SOURCES})
+target_link_libraries(sdtw ${Python3_LIBRARIES})
 
 # Install target
 install(TARGETS sdtw DESTINATION sdtw-lib)
