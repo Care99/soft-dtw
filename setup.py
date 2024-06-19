@@ -1,5 +1,5 @@
 from skbuild import setup
-DISTNAME = 'soft-dtw'
+DISTNAME = 'softdtw'
 DESCRIPTION = "Python implementation of soft-DTW"
 MAINTAINER = 'Mathieu Blondel,Cesar Rodas'
 MAINTAINER_EMAIL = 'cesar_rodas@outlook.com'
