@@ -16,4 +16,5 @@ setup(
         packages=PACKAGES,
         python_requires=">=3.7",
         cmake_install_dir=CMAKE_INSTALL_DIR,
+        cmake_args=["-DCMAKE_BUILD_TYPE=Release"],  # Adjust as needed
     )
